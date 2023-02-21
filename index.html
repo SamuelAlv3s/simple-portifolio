@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Samuel Alves</title>
+  </head>
+  <body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+      <div class="profile__container grid">
+        <div class="profile__data">
+          <div class="profile__border">
+            <div class="profile__perfil">
+              <img src="./assets/img/perfil.png" alt="Samuel Alves" />
+            </div>
+          </div>
+          <h2 class="profile__name">Samuel Alves</h2>
+          <h3 class="profile__profession">Frontend Developer</h3>
+
+          <ul class="profile__social">
+            <a
+              href="https://www.linkedin.com/in/samuel-alves-30a18a124/"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a
+              href="https://github.com/SamuelAlv3s"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+            <a
+              href="https://twitter.com/smk2000_s"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profile__buttons">
+          <a
+            download="curriculo-samuel-alves"
+            href="./assets/pdf/curriculo-samuel-alves-2-2023.pdf"
+            class="button"
+          >
+            Download CV
+            <i class="ri-download-line"></i>
+          </a>
+
+          <div class="profile__buttons-small">
+            <a
+              href="https://wa.me/5577999490490"
+              target="_blank"
+              class="button button__small button__gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a
+              href="mailto:samuelalves681@gmail.com"
+              target="_blank"
+              class="button button__small button__gray"
+            >
+              <i class="ri-mail-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="#main" class="scroll-down-indicator">
+        <i class="ri-arrow-down-s-line"></i>
+      </a>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main" id="main">
+      <section class="filters container">
+        <!--=============== FILTERS TABS ===============-->
+        <ul class="filters__content">
+          <button
+            class="filters__button filter-tab-active"
+            data-target="#skills"
+          >
+            Habilidades
+          </button>
+          <button class="filters__button" data-target="#projects">
+            Projetos
+          </button>
+        </ul>
+        <p class="filters__header-title">
+          Alguns projetos que desenvolvi durante o meu aprendizado.
+        </p>
+        <div class="filters__sections">
+          <!--=============== PROJECTS ===============-->
+          <div class="projects__content grid" data-content id="projects">
+            <article class="projects__card">
+              <img
+                src="./assets/img/project1.png"
+                alt="project1"
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Blog</h3>
+                  <a
+                    href="https://www.discoverthecosmos.space/"
+                    target="_blank"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/project2.png"
+                alt="project2"
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web & App</span>
+                  <h3 class="projects__title">Pizza Shop</h3>
+                  <a
+                    href="https://pizza-shop-nu.vercel.app/"
+                    target="_blank"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/project3.png"
+                alt="project3"
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">UI Twitter Clone</h3>
+                  <a
+                    href="https://ui-twitter-ggtg.vercel.app/"
+                    target="_blank"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/project4.png"
+                alt="project4"
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Ecoleta</h3>
+                  <a
+                    href="https://ecoleta.herokuapp.com/"
+                    target="_blank"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/project5.png"
+                alt="project5"
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">DevFinances</h3>
+                  <a
+                    href="https://maratona-discover-delta.vercel.app/"
+                    target="_blank"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/project6.png"
+                alt="project6"
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Moveit</h3>
+                  <a
+                    href="https://nlw04-react-moveit.vercel.app/"
+                    target="_blank"
+                    class="projects__button button button__small"
+                  >
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!--=============== SKILLS ===============-->
+          <div
+            class="skills__content grid filters__active"
+            data-content
+            id="skills"
+          >
+            <div class="skills__area">
+              <h3 class="skills__title">Frontend</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">HTML</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">CSS</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Javascript</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Typescript</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Angular</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">React</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Next.js</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">RxJs</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Sass</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Styled Components</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Tailwind Css</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Jest</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__area">
+              <h3 class="skills__title">Backend</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Node</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Express</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Nest.js</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Postgres</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">MySQL</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">MongoDB</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Firebase</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Prisma</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__area">
+              <h3 class="skills__title">Mobile</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Ionic</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Capacitor</h3>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">React Native</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer__container">
+      <span class="footer__copy">Samuel Alves - 2023</span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
